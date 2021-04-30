@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+.text_text {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a {
+    font-weight: bolder;
+    color: darkblue;
+}
+a:hover {
+    color: purple;
+}
+.text_text_2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#calculator {
+    background-color: coral;
+    width: 100%;
+    color: darkblue;
+    padding: 10px !important;
+    height: 650px;
+}
+#Texter {
+    background-color: skyblue;
+    width: 100%;
+    color: purple;
+    padding: 10px !important;
+    height: 650px;
+}
+#titular_calc {
+    padding-top: 10px;
+}
+button {
+    height: 50px;
+    background-color: blue;
+    color: yellow !important;
+    font-size: 15px !important;    
+    border-width: 4px !important;
+    border-left-color: lightblue !important;
+    border-top-color: lightblue !important;
+    border-right-color: darkblue !important;
+    border-bottom-color: darkblue !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+}
+.calc_boxes {
+    font-size: 20px;
+    font-weight: 500;
+}
+.calc_boxes input {
+    height: 30px;
+    font-size: 20px;
+    color: yellow;
+    background-color: blue;    
+    border-width: 4px;
+    border-right-color: lightblue;
+    border-bottom-color: lightblue;
+    border-left-color: darkblue;
+    border-top-color: darkblue;
+}
+#result_of_calc {
+    color: darkgreen !important;
+}
+.words {
+    font-size: 20px;
+    height: 30px;
+    background-color: lightyellow;
+    color: red;
+    border-width: 2px;
+    border-color: purple;
+    border-style: groove;
+}
+#joiner {
+    border-style: ridge;
+    border-color: purple !important;
+}
+#joined_word {
+    color: darkgreen !important;
+}

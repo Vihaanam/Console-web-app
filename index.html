@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Console log project C77</title>
+        <link rel="icon" href="icons8-visual-studio-code-2019-48.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Visual studio code-Console log</h1>
+        <br>
+        <h2>What is Visual Studio Code?</h2>
+        <h4 class="text_text">Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and
+             is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, 
+             TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++,
+              C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).</h4>
+        <h3>How to install and setup Visual Studio Code?</h3>
+        <h4>Click on the following link:</h4>
+        <a href="https://visualstudio.microsoft.com/downloads/" target="_blank">This link</a>
+        <h4 class="text_text">This will open a web page titled "Download Visual Studio Code - Mac, Linux, Windows". Click the
+             correct button to start the download. In the downloads folder, double-click on the file. This will
+              start the installation.
+        </h4>
+        <h2>About console</h2>
+        <h4 class="text_text_2">Console is an important part of web pages as it can be used to give information which is not included or included
+             or important information or results of calculations.
+        </h4>
+        <h3>To view the console:</h3>
+        <h4 class="text_text_2">Right-click on the screen, select Inspect. Once you have done that, select the Console tab. This will open the
+            console. For mobile phones click on <a href="https://chrome.google.com/webstore/detail/mobile-devtools/okfdckomkajiaeejefanbonnhppmplpo?hl=en#:~:text=Click%20the%20extensions's%20icon%20in,warnings%2C%20and%20other%20debug%20info." target="_blank">this link</a>.
+        </h4>
+        <div id="calculator">
+            <h2 id="titular_calc">Calculator</h2>
+            <div>
+                <div class="calc_boxes">Number 1.&nbsp;
+                <input type="number" id="number_1" class="number_box">
+                </div>
+                <br>
+                <div class="calc_boxes">Number 2.&nbsp;
+                <input type="number" id="number_2" class="number_box">
+                </div>
+                <br>
+                <label style="color: white !important; border-radius: 10px; padding: 5px;" class="bg-primary"><b>Note: Do not use second number box for square root</b></label>
+                <br>
+                <h2 id="result_of_calc">Result</h2>
+                <br>
+                <div>
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="add()">Add</button>
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="subtract()">Subtract</button>
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="multiply()">Multiply</button>
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="divide()">Divide</button>
+                </div>
+                <br>
+                <div id="last_buttons">
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="maxi()">Maximum</button>
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="mini()">Minimum</button>
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="power()">Power</button>
+                    <button class="col-lg-3 col-md-3 col-sm-6 col-xs-6" type="button" onclick="root()">Square root</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="Texter">
+            <h2 id="titular_calc">Text!</h2>
+            <div>
+                <h3>Word 1.</h3>
+                <input type="text" id="word_1" class="words" placeholder="Word 1">
+            </div>
+            <br>
+            <div>
+                <h3>Word 2.</h3>
+                <input type="text" id="word_2" class="words" placeholder="Word 2">
+            </div>
+            <br>
+            <button type="button" id="joiner" onclick="join()">Join</button>
+            <br>
+            <h2 id="joined_word">Joined word</h2>
+            <br>
+            <br>
+            <button type="button" id="joiner" class="col-lg-6" onclick="lower()">Convert to lower case</button>
+            <button type="button" id="joiner" class="col-lg-6" onclick="upper()">Convert to upper case</button>
+        </div>
+        </div>
+    </body>
+</html>
